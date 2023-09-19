@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8"></meta>
+<title>cup game</title>
+<link rel = "stylesheet" href = "style.css">
+<script  src="control.js">
+</script>
+</head>
+<body bgcolor = wheat onload="start()">
+	<p align="center">
+		<font size=20 id="title">Cup Game</font>
+		<div class="hint" id="hint">Hint:點選my_cup</div>
+	</p>
+	<hr>
+	<p align="center">
+		<button onclick="myCupFill()" class="smallcup" id="myCup">
+			<div class="smallCupLabel">my_cup</div>
+		</button>
+	</p>
+	<div class="wrap">
+		<div class="cabinet">
+			<div class="container">
+				<div class="cabinet">
+					<button onclick="fill(0)" class="cup">
+						<div class="mylabel">A</div>
+					</button>
+					<div class="cupText"></div>
+				</div>
+				<div class="cabinet">
+					<button onclick="fill(1)" class="cup">
+						<div class="mylabel">A</div>
+					</button>
+					<div class="cupText"></div>
+				</div>
+				<div class="cabinet">
+					<button onclick="fill(2)" class="cup">
+						<div class="mylabel">A</div>
+					</button>
+					<div class="cupText"></div>
+				</div>
+				<div class="cabinet">
+					<button onclick="fill(3)" class="cup">
+						<div class="mylabel">A</div>
+					</button>
+					<div class="cupText"></div>
+				</div>
+				<div class="cabinet">
+					<button onclick="fill(4)" class="cup">
+						<div class="mylabel">A</div>
+					</button>
+					<div class="cupText"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="cabinet">
+					<button onclick="fill(5)" class="cup">
+						<div class="mylabel">A</div>
+					</button>
+					<div class="cupText"></div>
+				</div>
+				<div class="cabinet">
+					<button onclick="fill(6)" class="cup">
+						<div class="mylabel">A</div>
+					</button>
+					<div class="cupText"></div>
+				</div>
+				<div class="cabinet">
+					<button onclick="fill(7)" class="cup">
+						<div class="mylabel">A</div>
+					</button>
+					<div class="cupText"></div>
+				</div>
+				<div class="cabinet">
+					<button onclick="fill(8)" class="cup">
+						<div class="mylabel">A</div>
+					</button>
+					<div class="cupText"></div>
+				</div>
+				<div class="cabinet">
+					<button onclick="fill(9)" class="cup">
+						<div class="mylabel">A</div>
+					</button>
+					<div class="cupText"></div>
+				</div>
+			</div>
+		</div>
+		<div class="myRecord" id="record">
+			Record:</br>
+		</div>
+	</div>
+</body>
+</html>

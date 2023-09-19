@@ -1,0 +1,99 @@
+body{
+	margin:0;
+	padding:0;
+}
+.cup {
+  width: 230px;
+  height: 350px;
+  background: #fff;
+  opacity: 0.8;
+  border-radius: 0px 0px 20px 20px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  cursor: pointer;
+}
+.smallcup {
+  width: 92px;
+  height: 140px;
+  background: #fff;
+  opacity: 0.8;
+  border-radius: 0px 0px 8px 8px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0px;
+  cursor: pointer;
+}
+.unit {
+  width: 215px;
+  height: 15px;
+  background: #ffc408;
+  border-radius: 10px 10px 10px 10px;
+  left: 0;
+  right: 0;
+  margin: 0px 0px 2px 0px;
+}
+.smallCupUnit {
+  width: 87px;
+  height: 43px;
+  background: #ffc408;
+  border-radius: 5px;
+  left: 0;
+  right: 0;
+  margin: 0px 0px 2px 0px;
+}
+.container{
+  display: flex;
+  justify-content: start;
+}
+.cabinet{
+  display: flex;
+  flex-direction: column;
+}
+.wrap{
+  display: flex;
+  justify-content: start;
+  width: auto;
+}
+.mylabel{
+  position: absolute;
+  font-size: 100px;
+  z-index: 1;
+}
+.smallCupLabel{
+  position: absolute;
+  font-size: 20px;
+  z-index: 1;
+}
+.myRecord{
+  background-color: #cdcdcd;
+  width: 600px;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.cupText{
+  font-size: 20px;
+  padding: 10px;
+}
+.highlight{
+  background-color: yellow;
+}
+.hint{
+  text-align:left;
+  font-size: 20px;
+  margin: 5px;
+}
